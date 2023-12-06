@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'VT323', monospace;
+}
+
+h3{
+    font-size: 54px;
+}
+
+header {
+    width: 100%;
+    background-color: #000;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nav--Container {
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.nav--Container > ul > li{
+    color: white;
+    list-style: none;
+    font-size: 32px;
+}
+
+.nav--Container >ul > li:hover{
+    color: rgb(192, 230, 26);
+    list-style: none;
+    cursor: pointer;
+    transition: 0.4s ease-in;
+}
+
+.list--Container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly; /* Distribuye uniformemente los elementos */
+    width: 100%; /* Asegura que la lista ocupe el 100% del ancho del contenedor */
+}
+
+.list--Container li{
+    color: white;
+    cursor: pointer;
+    transition: 0.4s ease-in;
+    margin: 10px 0; 
+}
+
+.presentacion--Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url(../img/back-header.png);
+    background-attachment: fixed;
+    color: #f5f5f5;
+    gap: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.presentacion--Container > h1{
+    font-size:100px;   
+}
+
+.presentacion--Container > p{
+    font-size: 40px;
+}
+
+.presentacion--Content{
+    margin: 0 auto;
+}
+
+
+.link--Rolling{
+    text-decoration: none;
+    background-color: rgb(192, 230, 26);
+    color: white;
+}
+
+
+
+.skills--Container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    background-color: #f5f5f5;
+}
+
+.skills--Container > h3{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.img--Container > div{
+    margin-right: 10px;
+}
+
+.img--Container > div:last-child {
+    margin-right: 0;
+}
+
+
+.img--Container > div > img{
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    height: auto;
+}
+
+.img--Container > div > img:hover{
+transform: rotate(360deg);
+transition: 0.5s;
+}
+
+
+.img--Container{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
+
+
+.proyectos--Container{
+padding: 60px 0;
+width: 100%;
+background-color: #000;
+color: white;
+text-align: center;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.proyectos--Content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+    justify-content: space-around;
+}
+
+.img--Proyecto{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+
+.form--Container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.form--Content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.form--Content label,
+.form--Content textarea,
+.form--Content input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.form--Content textarea {
+    resize: vertical;
+}
+
+.form--Content button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+.footer--Container{
+    width: 100%;
+    background-color: #000;
+    margin-top: 60px;
+}
+
+.footer--Content{
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer--Content > div > a > i{
+    color: white;
+    font-size: 24px;
+}
+.footer--Content > div > a > i:hover{
+    color: rgb(192, 230, 26);
+    transition: 0.4s ease-in;
+}
+
+
+/* Media Queries */
+
+
+@media (max-width: 768px) {  
+    }
+    .img--Container > div > img {
+        width: 80px;
+        height: 80px;
+    }
+
+
+
