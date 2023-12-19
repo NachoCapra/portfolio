@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,6 +27,11 @@
         <p>Mi nombre es Juan Ignacio Capra, soy de la ciudad de Bragado (Buenos aires, Argentina), tengo 25 años y estoy realizando la carrera de Desarrollo Full Stack en 
             <a class="link--Rolling" href="#">Rolling Code School</a>
         </p>
+        <div class="container--Descarga">
+            <a class="anchor--Descarga" href="C:\Users\MuGam\OneDrive\Documentos\CV Juan Ignacio Capra.pdf" download="CurriculumVitae" title="Descargar CV">
+                Descargar CV
+            </a>
+        </div>
     </section>
 
 
@@ -35,21 +40,31 @@
     <div class="img--Container">
         <div>
             <img src="./img/html.png" alt="html">
+            <p>HTML5</p>
         </div>
         <div>
             <img src="./img/css.png" alt="css">
+            <p>Css3</p>
         </div>
         <div>
             <img src="./img/bs.png" alt="bootstrap">
+            <p>Bootstrap</p>
         </div>
         <div>
             <img src="./img/figma.png" alt="figma">
+            <p>Figma</p>
         </div>
         <div>
             <img src="./img/git.png" alt="git">
+            <p>Git</p>
         </div>
         <div>
             <img src="./img/github.png" alt="github">
+            <p>GitHub</p>
+        </div>
+        <div>
+            <img src="./img/js.png" alt="javascript">
+            <p>Javascript</p>
         </div>
     </div>
    </section>
@@ -61,15 +76,15 @@
             <p class="title--Proyecto">Calculadora</p>
             <img class="img--Proyecto" src="./img/calculadora.png" alt="">
             <br>
-            <a class="btn--Proyecto" target="_blank" href="#">Github</a>
-            <a class="btn--Proyecto" target="_blank" href="#">Deploy</a>
+            <a class="btn--Proyecto" target="_blank" href="https://github.com/NachoCapra/calculadorav1.0">Github</a>
+            <a class="btn--Proyecto" target="_blank" href="https://nachocapra.github.io/calculadorav1.0/">Deploy</a>
         </div>
         <div>
             <p class="title--Proyecto">Weather App</p>
             <img class="img--Proyecto" src="./img/weatherapp.png" alt="">
             <br>
-            <a class="btn--Proyecto" target="_blank" href="#">Github</a>
-            <a class="btn--Proyecto" target="_blank" href="#">Deploy</a>
+            <a class="btn--Proyecto" target="_blank" href="https://github.com/NachoCapra/WeatherApp">Github</a>
+            <a class="btn--Proyecto" target="_blank" href="https://nachocapra.github.io/WeatherApp/">Deploy</a>
         </div>
         <div>
             <p class="title--Proyecto">CoinBase Figma</p>
@@ -82,8 +97,8 @@
             <p class="title--Proyecto">CF Estudio</p>
             <img class="img--Proyecto" src="./img/cf-estudio.png" alt="">
             <br>
-            <a class="btn--Proyecto" href="#">Github</a>
-            <a class="btn--Proyecto" href="#">Deploy</a>
+            <a class="btn--Proyecto" target="_blank" href="https://github.com/NachoCapra/cf-estudio">Github</a>
+            <a class="btn--Proyecto" target="_blank" href="https://cf-estudio.vercel.app/">Deploy</a>
         </div>
     </div>
    </section>
@@ -101,15 +116,61 @@
             <label for="descripcion">Descripción:</label>
             <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
         
-            <button type="submit">Enviar</button>
+            <button id="btn--Form" type="submit">Enviar</button>
           </form>
     </div>
    </section>
 
+   <section class="certificados--Container">
+    <h3 class="title--Certificaciones">Certificaciones</h3>
+    <div class="certificaciones--Content">
+        <div>
+            <img class="certif--Uno" src="./img/certificado-1.png" alt=""> 
+            <p class="p--descargaCertif">
+                <a  href="">Descargar</a>
+            </p>
+        </div>
+        <div>
+            <img class="certif--Dos" src="./img/certificado-3.png" alt="">
+            <p class="p--descargaCertif">
+                <a href="">Descargar</a>
+            </p>
+        </div>
+    </div>
+   </section>
+
+   <!-- Waves -->
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#000000" fill-opacity="1" d="M0,256L1440,0L1440,0L0,0Z"></path>
+  </svg>
+  <!-- Fin waves -->
+
+  <section class="finallyText--Container">
+    <div>
+        <h5>"SI SE PUEDE IMAGINAR, SE PUEDE PROGRAMAR"</h5>
+    </div>
+    <div>
+        <h5>
+            "EL EXITO ES 1% DE INSPIRACION, Y 99% TRANSPIRACION"
+        </h5>
+    </div>
+        <div class="finallyText--End">
+        <h5>"TODO SALDRA BIEN"</h5>
+          </div>
+  </section>
+
+  <!-- Wave -->
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#000000" fill-opacity="1" d="M0,256L1440,128L1440,320L0,320Z"></path>
+  </svg>
+  <!-- Fin Wave -->
+  
+
+
  <footer class="footer--Container">
     <div class="footer--Content">
         <div>
-            <a href="">
+            <a target="_blank" href="http://wa.me/+542342544824">
                 <i class="fa-brands fa-whatsapp"></i>
             </a>
         </div>
@@ -135,8 +196,6 @@
         </div>
     </div>
  </footer>
+
 </body>
-
-
-<script src="./js/app.js"></script>
 </html>
